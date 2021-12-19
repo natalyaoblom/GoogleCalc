@@ -27,7 +27,7 @@ public class Configurations {
 
     @AfterTest
     public void quitDriver() {
-        driver.quit();
+        driver.close();
     }
 
 
